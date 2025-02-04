@@ -1,0 +1,583 @@
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    list-style:none;
+    text-decoration:none;
+    font-family:sans-serif;
+}
+
+header {
+    width:100%;
+    background-color:#ffff;
+    border-bottom:0.5px solid #ccc;
+}
+
+.header-mid {
+    max-width:1320px;
+    margin:auto;
+    padding:20px 0px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+
+}
+
+.header-left {
+
+}
+
+.logo img {
+    max-width:195px;
+    height:31px;
+}
+
+.header-right {
+    flex-basis:40%;
+}
+
+.h-ul {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    color: #5c1c4b;
+    font-size:18px;
+    
+}
+
+.section-1 {
+    width:100%;
+    margin:25px 0px;
+}
+
+.sec-1mid {
+    max-width:1320px;
+    margin:20px auto;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+
+.box {
+    width:450px;
+    padding:15px 10px;
+    border:none;
+    outline:none !important;
+}
+
+::placeholder {
+    color:#222;
+    font-size:17px;
+    
+}
+
+.sec1-left {
+    width:950px;
+    margin-right:1%;
+    display:flex;
+    align-items:center;
+    height:65vh;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    background-image:url("images/india-holidays\ \(1\).jpg");
+    border-radius:15px;
+    background-size:cover;
+}
+
+.search-box {
+    display:flex;
+}
+
+.sec1-right {
+    width:400px;
+    height:65vh;
+    background-image:url("images/india-nepal-bhutan-tour\ \(1\).jpg");
+    background-size:cover;
+    border-radius:15px;
+    
+}
+
+.sec1-left h2 {
+    color:white;
+    margin-bottom:10px;
+    font-size:30px;
+}
+
+.sec1-left i {
+    padding:15px 24px;
+    border:none;
+    background-color:purple;
+    color:white;
+   
+}
+
+.sec-2 {
+    width:100%;
+    
+}
+
+.sec-2mid {
+    max-width:1320px;
+    margin:40px auto;
+    display:flex;
+}
+
+.sec-2content {
+    flex-basis:32%;
+    margin:0.5%;
+    border:1px solid #ccc;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-radius:15px;
+}
+
+.small-img img {
+    width:60px;
+    height:60px;
+    margin-left:6px;
+    margin-right:10px;
+}
+
+.content {
+    padding:30px 0px;
+}
+
+.content h3 {
+    text-transform:uppercase;
+    margin-bottom:5px;
+}
+
+.sec-3 {
+    width:100%;
+    background-color:#ffff;
+
+}
+
+.sec-3mid {
+    max-width:1320px;
+    margin:50px auto;
+    display:grid;
+    grid-template-columns:repeat(2,25%);
+    gap:4px;
+    
+}
+
+.rajasthan {
+    max-width:306px;
+    height:500px;
+}
+
+.threemid {
+    max-width:1320px;
+    margin:auto;
+}
+
+.threemid h2 {
+    margin-top:20px;
+    font-size:30px;
+
+}
+
+.rajasthan img {
+    width:100%;
+    height:100%;
+    border-radius:15px;
+    
+}
+
+.rightpackages {
+    display:grid;
+    grid-template-columns:repeat(3,100%);
+    gap:10px;
+
+}
+
+.pack-img img {
+    max-width:300px;
+    height:246px;
+    border-radius:15px;
+}
+
+.sec-4 {
+    width:100%;
+    background-color:#ffffff;
+    margin:60px 0px;
+}
+
+.sec4md {
+    max-width:1320px;
+    margin-top:40px;
+    margin:auto;
+}
+
+.sec4md h2{
+    margin-top:20px;
+    font-size:30px;
+}
+
+.sec-4mid {
+    max-width:1320px;
+    margin:20px auto;
+    display:flex;
+    flex-wrap:wrap;
+    gap:33px;
+}
+
+/* .trend {
+    flex-basis:30%;
+    margin:1%;
+} */
+
+.trend img {
+    width:416px;
+    height:200px;
+    border-radius:13px;
+}
+
+.pack-img img {
+    width:100%;
+}
+
+.sec-5 {
+    width:100%;
+    background-color:#ccc;
+}
+
+.sec-5mid {
+    max-width:1320px;
+    margin:10px auto;
+    display:flex;
+    padding:0px 0px 50px 0px;
+    justify-content:space-around;
+
+}
+
+.mid-5 {
+    max-width:1320px;
+    padding:10px 0px;
+    margin:auto;
+}
+
+.mid-5 h2 {
+    margin-left:30px;
+}
+.box-1 {
+    width:23%;
+    background: #ffffff;
+    border-radius:12px;
+    padding-bottom:50px;
+}
+
+.box-1 p{
+    margin-left:10px;
+}
+
+
+figure img {
+    width:100%;
+    margin-bottom:8px;
+    border-radius:12px;
+}
+
+.line {
+    border:0.2px solid #ccc;
+    margin-top:5px;
+    margin-bottom:12px;
+}
+
+.cta {
+    display:flex;
+    gap:110px;
+}
+
+.cta p {
+    margin-top:17px;
+    margin-left:15px;
+}
+
+button {
+    padding:8px 17px;
+    background:none;
+    border:none;
+    background-color:purple;
+    color:white;
+    border-radius:7px;
+}
+
+.sec-6 {
+    width:100%;
+}
+
+.sec-6md {
+    max-width:1320px;
+    margin:auto;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.sec-6mid {
+    width:1320px;
+    margin:30px auto;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.img-6 {
+    width:30%;
+    margin:1.5%;
+    
+}
+
+.img-6 img {
+    width:100%;
+    
+}
+
+.sec-7 {
+    width:100%;
+    background-color:#ffffff;
+}
+
+.sec-7md {
+    max-width:1320px;
+    margin:auto;
+}
+
+.sec-7md h3{
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.sec-7md p {
+    margin-bottom:15px;
+}
+
+.sec-7md span {
+    text-decoration:underline;
+}
+
+.sec-7mid {
+    max-width:1320px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+}
+
+
+
+.img-7 img {
+    width:100%;
+    border-radius:25px 25px 0px 0px;
+}
+
+.big-box {
+    width:32%;
+    border:1px solid #ccc;
+    padding:0px 0px 30px 0px;
+    border-radius:25px 25px 0px 0px;
+}
+
+.big-box h1 {
+    margin:20px 0px;
+}
+
+.sec-8 {
+    width:100%;
+}
+
+.sec-8md {
+    max-width:1320px;
+    margin:50px auto;
+}
+
+.sec-8mid {
+    margin:0px 0px 50px 0px;
+}
+
+.box-up {
+    max-width:1320px;
+    margin:auto;
+    background-color:rgb(62, 8, 62);
+    color:white;
+    border:0.5px solid #ccc;
+    border-radius:5px;
+    padding:15px 8px;
+}
+
+.box-down {
+    max-width:1320px;
+    margin:auto;
+    background-color:#ffffff;
+    color:black;
+    border:0.5px solid #ccc;
+    border-radius:5px;
+    padding:25px 0px;
+    display:flex;
+    align-items:center;
+  
+}
+
+.box-down article {
+    margin-left:10px;
+    font-size:20px;
+}
+
+.sec-8 {
+    width:100%;
+    border:0.8px solid #ccc;
+}
+
+.sec-8mid {
+    width:1320px;
+    margin:auto;
+}
+
+.box-mail {
+    margin:30px 0px;
+    display:flex;
+    justify-content:center;
+    
+}
+
+.submit-box {
+    padding:17px 200px;
+    border-radius:7px;
+    border:none;
+    border:1px solid #ccc;
+}
+
+.submission {
+    margin-left:5px;
+    background-color:rgb(10, 142, 10);
+    padding:5px 20px;
+    font-size:20px;
+}
+
+footer {
+    width:100%;
+    padding:20px 0px;
+    background-color:black;
+}
+
+.grey-part {
+    width:98%;
+    background-color:#cccdce;
+    display:flex;
+    margin:auto;
+    gap:5px;
+    padding:10px 0px;
+    border-radius:7px;
+    justify-content:center;
+}
+
+.grey-part h2{
+    color:white;
+}
+
+.grey-part img {
+    width:94px;
+    height:23px;
+}
+
+.part-4 {
+    flex-grow:1;
+    margin:1.5%;
+}
+
+.part-4 h2 {
+    color:white;
+    margin-bottom:15px;
+}
+
+.f-nav>ul {
+    color:white;
+}
+
+.f-nav>ul>li {
+    margin-bottom:5px;
+
+}
+
+.f-nav>ul>li>i {
+    margin-right:5px;
+}
+
+.footer-mid {
+    width:1320px;
+    margin:auto;
+    display:flex;
+    
+}
+
+.line {
+    width:1320px;
+    margin:20px auto;
+    border-bottom:1px solid white;
+}
+
+.last {
+    max-width:1320px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.accept {
+    flex-basis:30%;
+   display:flex; 
+   gap:10px;
+}
+
+.accept h3 {
+    color:white;
+}
+
+.accept figure img {
+    width:40px;
+    height:24px;
+}
+.copyright {
+    flex-basis:50%;
+    color:white;
+
+}
+
+.social-media {
+    flex-basis:20%;
+    display:flex;
+    gap:15px;
+    align-items:center;
+    color:white;
+}
+
+
+.social-media i {
+    color:white;
+    width:10px;
+    height:16px;
+}
+
+.circle {
+    width:100px;
+    height:100px;
+    background-color:purple;
+    border-radius:50px;
+    position:fixed;
+    right:10px;
+    bottom:10px;
+
+}
+
+.circle figure img {
+    width:150px;
+    position:relative;
+    right:40px;
+    bottom:26px;
+}

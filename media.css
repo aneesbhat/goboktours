@@ -1,0 +1,139 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+    .header-mid {
+        flex-direction:column;
+        gap:15px;
+        padding:12px 0px;
+    }
+
+    nav>ul {
+        gap:20px;
+    }
+
+    .sec-1mid {
+        flex-direction:column;
+        gap:20px;
+        
+        
+    }
+
+    .sec1-right {
+        object-fit:cover;
+        width:100%;
+    }
+
+    .sec1-left {
+        width:100%;
+
+    }
+
+    .sec-2mid {
+        flex-direction:column;
+        
+    }
+
+    .sec4md h2 {
+        text-align:center;
+    }
+
+    .threemid h2 {
+        text-align:center;
+    }
+
+    .trend {
+        width:100%;
+    }
+
+    .trend img {
+        width:100%;
+    }
+
+    .sec-3mid {
+        width:100%;
+    
+}
+
+    .rightpackages {
+        width:100%;
+    }
+
+    .rajasthan img {
+        width:100%;
+    }
+
+    .cta {
+        flex-direction:column;
+        gap:7px;
+    }
+
+    .cta p {
+        margin:0px 0px;
+    }
+
+    button {
+        display:flex;
+        width:65%;
+        z-index:1;
+        padding:0px 10px;
+    }
+
+    .sec-6mid {
+        flex-direction:column;
+    }
+
+    .sec-6md h2 {
+        text-align:center;
+    }
+
+    .img-6 {
+        width:28%;
+        
+    }
+
+    .img-6 img {
+        width:100%;
+    }
+
+    .sec-7md {
+        text-align:center;
+    }
+
+    .box-up {
+        width:40%;
+        margin:0px;
+    }
+
+    .box-down {
+        width:40%;
+        margin:0px;
+    }
+
+    .box-mail {
+        flex-direction:column;
+        gap: 10px;
+    }
+
+    .submit-box {
+        width:40%;
+        padding:17px 15px;
+    }
+
+    .submission {
+        width:30%;
+        padding:13px 15px;
+        margin-left:15px;
+        display:flex;
+        justify-content:center;
+
+    }
+
+    
+    .footer-mid {
+        width:100%;
+    }
+
+    .last {
+        flex-direction:column;
+        gap:12px;
+    }
+
+    
